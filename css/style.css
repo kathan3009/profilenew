@@ -1,0 +1,186 @@
+html {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800; 
+    scroll-behavior: smooth;
+
+}
+body {
+    margin: 0px; 
+}
+.navbar {
+    
+    background-color: white;
+    font-size: 27px;
+    font-weight: 200 !important;
+    border-bottom: thin solid #eff0f0;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(239, 240, 240);
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+  }
+
+ul {
+    margin-bottom: 0;
+    list-style-type: none;
+    padding: 1.5vw 5vw 1vw 16.5vw;
+  }
+
+ul a {
+    font-family:'Montserrat:semi-bold', sans-serif ;
+    text-align: center !important;
+    text-decoration: none;
+    font-weight: 100 !important;
+    color: black;
+}
+
+ul a:hover {
+    color: black;
+
+    transition: 0.2s;
+}
+
+video {
+    width: 90%;
+    height: 50%;
+    margin: 0;
+    display: block;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.heading {
+    color: black;
+}
+#main {
+        background-size: cover;
+        padding-top: 6vw;
+        padding-bottom: 2vw;
+}
+.grey {
+    background:#ebebeb;
+    color:black;
+}
+footer {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    line-height: 2rem;
+    background: white;
+    color: black;
+    text-align: center;   
+    border-bottom: thin solid #eff0f0;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(239, 240, 240);
+    border-top: thin solid #eff0f0;
+    border-top: thin;
+    border-top-style: solid;
+    border-top-color: rgb(239, 240, 240);
+}
+
+.pad {
+    padding: 8vw;
+}
+.minipad {
+    padding: 2vw 2vw 2vw 0;
+}
+.button {
+    border-radius: 100px;
+}
+
+.tex {
+    height: 50%;
+}
+
+.phones {
+    position: relative;
+}
+.phone {
+    position: relative;
+    max-width: 70%;
+}
+  .phone + .phone {
+    display: none;
+}
+
+#members img {
+    border-radius: 50%;
+    width: 15vw;
+}
+#members p {
+    margin-top: -1.2vw;
+}
+
+#main p {
+    color: black;
+}
+@media (min-width: 550px) {
+    #main img {
+        display: block;
+        
+    }
+   
+}
+@media (max-width: 550px) {
+    .navbar{
+       
+        text-align: left ;
+    }
+    
+    #main {
+       
+        padding-top: 30vw;
+        padding-bottom: 20vw;
+    }
+    #main img{
+       margin-left: 35%;
+     width: 150vw;
+    }
+    #mockup {
+        display: none;
+    }
+    #members img {
+        width: 25vw;
+    }
+    .four {
+        text-align: center;
+    }
+    .three {
+        text-align: center;
+    }
+}
+
+.momos {
+    display: none;
+}
+
+.vertical-center {
+    margin-top: 10%;
+}
+
+#mainn {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+#faceimage {
+    position: relative;
+    margin: 40px 40px;
+    border-radius: 40px;
+   }
+
+ 
