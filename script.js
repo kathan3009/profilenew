@@ -1,7 +1,7 @@
 
 
 (function(){
-    var preload=document.getElementById('index');
+    var preload=document.getElementById('welcome');
     var loading=0;
     var id=setInterval(frame,60);
     function frame(){
@@ -9,7 +9,7 @@
             preload.style.animation="fadeout";
             clearInterval(id);
             
-            window.open("index.html","_self");
+            window.open("welcome.html","_self");
 
         } else{
             loading=loading+1;
