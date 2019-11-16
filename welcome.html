@@ -9,6 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
    
     <title>Kathan Desai</title>
 </head>
@@ -67,8 +71,66 @@
             </div>
         
     </section>
-   <!--
-    <section id="skills" class="block">
+ 
+    <!--
+       <section id="gallery" class="block">
+            <div class="container">
+                <div class="row">
+                    <h2>Gallery</h2>
+                  <div class="gallery">
+                    <div><img src='https://picsum.photos/300/200/?random'/></div>
+                    <div><img src='https://picsum.photos/300/200/?random'/></div>
+                    <div><img src='https://picsum.photos/300/200/?random'/></div>
+                    <div><img src='https://picsum.photos/300/200/?random'/></div>
+                    <div><img src='https://picsum.photos/300/200/?random'/></div>
+                    <div><img src='https://picsum.photos/300/200/?random'/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="rand" /></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali2" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali3" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali4" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali5" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali6" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali7" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali8" class="img_gallery_hidden"/></div>
+                    <div><img src='https://picsum.photos/300/200/?random' id="gali9" class="img_gallery_hidden"/></div>
+                </div>
+                <a href="#rand" id="poop" onclick="showphoto()" style="text-decoration: none; color: black; font-size: 22px;"><h2>Show More</h2></a> 
+               
+               <script type="text/javascript">
+                 function showphoto(){
+                  if(document.getElementById("poop").firstElementChild.innerHTML == "Show More"){
+                    document.getElementById("gali1").style.display = "";
+                    document.getElementById("gali2").style.display = "";
+                    document.getElementById("gali3").style.display = "";
+                    document.getElementById("gali4").style.display = "";
+                    document.getElementById("gali5").style.display = "";
+                    document.getElementById("gali6").style.display = "";
+                    document.getElementById("gali7").style.display = "";
+                    document.getElementById("gali8").style.display = "";
+                    document.getElementById("gali9").style.display = "";
+                    document.getElementById("poop").firstElementChild.innerHTML = "Show Less";
+                 }else{
+                   document.getElementById("gali1").style.display = "none";
+                   document.getElementById("gali2").style.display = "none";
+                   document.getElementById("gali3").style.display = "none";
+                   document.getElementById("gali4").style.display = "none";
+                    document.getElementById("gali5").style.display = "none";
+                    document.getElementById("gali6").style.display = "none";
+                    document.getElementById("gali7").style.display = "none";
+                    document.getElementById("gali8").style.display = "none";
+                    document.getElementById("gali9").style.display = "none";
+
+                   document.getElementById("poop").firstElementChild.innerHTML = "Show More";
+                    }
+                 }
+              </script>
+                   </div>
+                 
+                </div>
+
+          
+    </section>
+    <section id="skills" class=" grey block">
             <div class="container">
                 <div class="row">
                     <h2>Skills</h2>
@@ -87,7 +149,7 @@
             </div>
     </section>
      
-    <section id="work" class="grey block">
+    <section id="work" class="block">
             <div class="container">
                 <div class="row">
                     <h2>Work</h2>
@@ -180,31 +242,12 @@
                 </div>
             </div>
     </section>
+      
     
-    <section id="members" class="block">
-            <div class="container">
-                <div class="row">
-                    <h2>Our Team</h2>
-                    <p class="minipad">Our team combines medical expertise with latest technological breakthroughs to produce useful products</p>
-                    <div class="four columns">
-                        <img src="./images/doc1.jpg">
-						<h4>Dr. Gregory House</h4>
-						<p>MD & Entrepreneur</p>
-                    </div>
-                    <div class="four columns">
-                        <img src="./images/doc2.jpg">
-                        <h4>Dr. Meredith Grey</h4>
-                        <p>PhD in being a doctor</p>
-                    </div>
-                    <div class="three columns">
-                        <img src="./images/doc3.jpg">
-                        <h4>Elon Musk</h4>
-                        <p>Space guy</p>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <section class="block">
+   
+    
+    
+    <section class=" grey block">
         <div class="container">
           <h3 class="section-heading">Responsive Images</h3>
           <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>

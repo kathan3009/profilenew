@@ -117,11 +117,8 @@ footer {
     display: none;
 }
 
-#members img {
-    border-radius: 50%;
-    width: 15vw;
-}
-#members p {
+
+#gallery p {
     margin-top: -1.2vw;
 }
 
@@ -160,9 +157,7 @@ footer {
         margin-bottom: 20px;
       }
    
-    #members img {
-        width: 25vw;
-    }
+   
     .four {
         text-align: center;
     }
@@ -306,3 +301,21 @@ footer {
     padding:3px;
     cursor:pointer;
 }
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img{
+  margin: 5px;
+  transition: all 1s;
+}
+ .gallery img:hover {
+  transform: scale(1.1);
+ }
+.img_gallery_hidden
+{
+  display: none;
+  
+}
+ 
