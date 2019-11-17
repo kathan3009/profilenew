@@ -264,18 +264,20 @@ footer {
     transition: 0.4s;
   }
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: scale(1.5);
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.5);
   }
   
   .card_content {
     padding: 3rem;
-   
-    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+    color: black;
+    font-weight: 200 !important;
+    
   }
   
   .card_title {
-    color: #ffffff;
-    font-size: 1.1rem;
+    color: black;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -288,8 +290,8 @@ footer {
       }
   
   .card_text {
-    color: #ffffff;
-    font-size: 0.875rem;
+    color: black;
+    font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;    
     font-weight: 400;
@@ -301,23 +303,3 @@ footer {
     padding:3px;
     cursor:pointer;
 }
-.gallery{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  }
-.gallery img{
-  width: 200px;
-  height: 300px;
-  margin: 5px;
-  transition: all 1s;
-}
- .gallery img:hover {
-  transform: scale(1.1);
- }
-.img_gallery_hidden
-{
-  display: none;
-  
-}
- 

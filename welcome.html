@@ -13,6 +13,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="jquery.flexslider.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="4/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+<link href="4/ninja-slider.css" rel="stylesheet" type="text/css" />
+<script src="4/thumbnail-slider.js" type="text/javascript"></script>
+<script src="4/ninja-slider.js" type="text/javascript"></script>
+
    
     <title>Kathan Desai</title>
 </head>
@@ -48,6 +54,7 @@
 
      
     </section>
+    
   
     <section id="about" class="block grey">
             <div class="container">
@@ -71,153 +78,172 @@
             </div>
         
     </section>
+    <section id="skills" class="block">
+      <div class="container">
+          <div class="row">
+              <h2>Skills</h2>
+              <div id="myProgress"><div style="width: 50%"class="myBar"><div id="label">Photography </div></div></div>
+               <div id="myProgress"><div style="width: 85%"class="myBar"><div id="label">HTML5</div></div></div>
+              
+               <div id="myProgress"><div style="width: 80%"class="myBar"><div id="label">CSS 3</div></div></div>
+               <div id="myProgress"><div style="width: 80%"class="myBar"><div id="label">JAVASCRIPT</div></div></div>
+               <div id="myProgress"><div style="width: 87%"class="myBar"><div id="label">NODE.JS</div></div></div>
+               <div id="myProgress"><div style="width: 85%"class="myBar"><div id="label">IONIC FRAMEWORK</div></div></div>
+               <div id="myProgress"><div style="width: 50%"class="myBar"><div id="label">REACT</div></div></div>
+               <div id="myProgress"><div style="width: 60%"class="myBar"><div id="label">REACT NATIVE</div></div></div>
+               <div id="myProgress"><div style="width: 63%"class="myBar"><div id="label">C++</div></div></div>
+               <div id="myProgress"><div style="width: 80%"class="myBar"><div id="label">Cooking</div></div></div>
+               <div id="myProgress"><div style="width: 100%"class="myBar"><div id="label">Eating</div></div></div>
+          </div>
+      </div>
+</section>
  
     
-       <section id="gallery" class="block">
+       <section id="gallery" class="grey block">
             <div class="container">
                 <div class="row">
-                    <h2>Gallery</h2>
-                  <div class="gallery">
-                    <div><img src='https://docs.google.com/uc?id=1RNOhmz9j0xkLte2CPJef5ekYD962oszU'/></div>
-                    <div><img src='https://docs.google.com/uc?id=1RNOhmz9j0xkLte2CPJef5ekYD962oszU'/></div>
-                    <div><img src='https://docs.google.com/uc?id=1RNOhmz9j0xkLte2CPJef5ekYD962oszU'/></div>
-                    <div><img src='https://docs.google.com/uc?id=1RNOhmz9j0xkLte2CPJef5ekYD962oszU'/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="rand" /></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali2" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali3" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali4" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali5" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali6" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali7" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali8" class="img_gallery_hidden"/></div>
-                    <div><img src='https://picsum.photos/300/200/?random' id="gali9" class="img_gallery_hidden"/></div>
+                  <h2>
+                    Gallery
+                  </h2>
+                  <div id='ninja-slider'>
+                    <div>
+                        <div class="slider-inner">
+                            <ul>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1S0353b-bJkyS0Qjvx9TMbJaNSHI29t4-"></a></li>
+                                <li><a class="ns-img" href=" https://drive.google.com/uc?id=1Sc031g8mvn9p_DEw_JpN9qLA4SOuRbKu"></a></li>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1SaMT6YtLNPEmsi3CEB_-VLhZ9pMOtkDc"></a></li>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1Sigucb_M-9SU6_PTP5ZkOGoS_6cnmISO"></a></li>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1S41X2KUXE8eF4D2HhaZI0tSf_bbXp3kN"></a></li>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1TDnIk5P9XWjl08KTIHILXfHSWR-Q-ZZb"></a></li>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1RNOhmz9j0xkLte2CPJef5ekYD962oszU"></a></li>
+                                <li><a class="ns-img" href="https://drive.google.com/uc?id=1S75nSQXV7olr4Wq1S9NQatBtjoE-YAgS"></a></li>
+                             
+                             
+                            </ul>
+                            <div class="fs-icon" title="Expand/Close"></div>
+                        </div>
+                        <div id="thumbnail-slider">
+                            <div class="inner">
+                                <ul>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1S0353b-bJkyS0Qjvx9TMbJaNSHI29t4-"></a>
+                                        <span>0</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href=" https://drive.google.com/uc?id=1Sc031g8mvn9p_DEw_JpN9qLA4SOuRbKu"></a>
+                                        <span>1</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1SaMT6YtLNPEmsi3CEB_-VLhZ9pMOtkDc"></a>
+                                        <span>2</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1Sigucb_M-9SU6_PTP5ZkOGoS_6cnmISO"></a>
+                                        <span>3</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1S41X2KUXE8eF4D2HhaZI0tSf_bbXp3kN"></a>
+                                        <span>4</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1TDnIk5P9XWjl08KTIHILXfHSWR-Q-ZZb"></a>
+                                        <span>5</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1RNOhmz9j0xkLte2CPJef5ekYD962oszU"></a>
+                                        <span>6</span>
+                                    </li>
+                                    <li>
+                                        <a class="thumb" href="https://drive.google.com/uc?id=1S75nSQXV7olr4Wq1S9NQatBtjoE-YAgS"></a>
+                                        <span>7</span>
+                                    </li>
+                                  
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="#rand" id="poop" onclick="showphoto()" style="text-decoration: none; color: black; font-size: 22px;"><h2>Show More</h2></a> 
-               
-               <script type="text/javascript">
-                 function showphoto(){
-                  if(document.getElementById("poop").firstElementChild.innerHTML == "Show More"){
-                    document.getElementById("gali1").style.display = "";
-                    document.getElementById("gali2").style.display = "";
-                    document.getElementById("gali3").style.display = "";
-                    document.getElementById("gali4").style.display = "";
-                    document.getElementById("gali5").style.display = "";
-                    document.getElementById("gali6").style.display = "";
-                    document.getElementById("gali7").style.display = "";
-                    document.getElementById("gali8").style.display = "";
-                    document.getElementById("gali9").style.display = "";
-                    document.getElementById("poop").firstElementChild.innerHTML = "Show Less";
-                 }else{
-                   document.getElementById("gali1").style.display = "none";
-                   document.getElementById("gali2").style.display = "none";
-                   document.getElementById("gali3").style.display = "none";
-                   document.getElementById("gali4").style.display = "none";
-                    document.getElementById("gali5").style.display = "none";
-                    document.getElementById("gali6").style.display = "none";
-                    document.getElementById("gali7").style.display = "none";
-                    document.getElementById("gali8").style.display = "none";
-                    document.getElementById("gali9").style.display = "none";
-
-                   document.getElementById("poop").firstElementChild.innerHTML = "Show More";
-                    }
-                 }
-              </script>
+                  
                    </div>
                  
                 </div>
 
           
     </section>
-    <!--
-    <section id="skills" class=" grey block">
-            <div class="container">
-                <div class="row">
-                    <h2>Skills</h2>
-                     <div id="myProgress"><div style="width: 80%"class="myBar"><div id="label">HTML5</div></div></div>
-                     <div id="myProgress"><div style="width: 75%"class="myBar"><div id="label">CSS 3</div></div></div>
-                     <div id="myProgress"><div style="width: 74%"class="myBar"><div id="label">JAVASCRIPT</div></div></div>
-                     <div id="myProgress"><div style="width: 87%"class="myBar"><div id="label">NODE.JS</div></div></div>
-                     <div id="myProgress"><div style="width: 54%"class="myBar"><div id="label">PHP</div></div></div>
-                     <div id="myProgress"><div style="width: 83%"class="myBar"><div id="label">GIT</div></div></div>
-                     <div id="myProgress"><div style="width: 52%"class="myBar"><div id="label">PHOTOSHOP</div></div></div>
-                     <div id="myProgress"><div style="width: 73%"class="myBar"><div id="label">ILLUSTRATOR</div></div></div>
-                     <div id="myProgress"><div style="width: 45%"class="myBar"><div id="label">ADOBEXD</div></div></div>
-                     <div id="myProgress"><div style="width: 85%"class="myBar"><div id="label">BASH</div></div></div>
-                     <div id="myProgress"><div style="width: 63%"class="myBar"><div id="label">C++</div></div></div>
-                </div>
-            </div>
-    </section>
+  
+  
      
     <section id="work" class="block">
             <div class="container">
                 <div class="row">
                     <h2>Work</h2>
+                    
                     <ul class="cards">
+                 
                         <li class="cards_item">
                           <div class="card">
-                            <div class="card_image"><img src="../profilenew/images/picc1.png" ></div>
+                            <div class="card_image"><a href="https://anandapp.co/" style="text-decoration: none;"><img src="../profilenew/images/picc1.png" ></a></div>
                             <div class="card_content">
                               <h2 class="card_title">Ananda</h2>
-                              <p class="card_text">Yoga. The Right Way.</p>
-                              <button class="btn card_btn"><a href="https://anandapp.co/" style="text-decoration: none;"> Read More</a></button>
+                              <div class="card_text">  
+                                  <p >Yoga. The Right Way.
+
+                                  </p>
+                              
+                    
+                            
                             </div>
                           </div>
                         </li>
-                     
-                          <li class="cards_item">
+                
+                          <li class="cards_item" id="dekh">
                             <div class="card">
-                                <div class="card_image"><img src="../profilenew/images/picc1.png" ></div>
+                                <div class="card_image"><a href="https://minetx.co" style="text-decoration: none;"> <img src="../profilenew/images/minetx.png" ></a></div>
                                 <div class="card_content">
-                                  <h2 class="card_title">Ananda</h2>
-                                  <p class="card_text">Yoga. The Right Way.</p>
-                                  <button class="btn card_btn"><a href="https://anandapp.co/" style="text-decoration: none;"> Read More</a></button>
+                                  <h2 class="card_title">MINET</h2>
+                                  <div class="card_text">
+                                  <p >The Technology Club of The Mother's International School</p>
+                               
+                                </div>
                                 </div>
                               </div>
                           </li>
-                          <li class="cards_item" id="dekh">
+                          <li class="cards_item_hidden" id="hidden1">
                             <div class="card">
-                                <div class="card_image"><img src="../profilenew/images/picc1.png" ></div>
+                                <div class="card_image"><a href="https://teamimpulse.co/" style="text-decoration: none;"><img src="../profilenew/images/enig.png" ></a></div>
                                 <div class="card_content">
-                                  <h2 class="card_title">Ananda</h2>
-                                  <p class="card_text">Yoga. The Right Way.</p>
-                                  <button class="btn card_btn"><a href="https://anandapp.co/" style="text-decoration: none;"> Read More</a></button>
+                                  <h2 class="card_title">Impulse</h2>
+                                  <p class="card_text">The Physics Club of The Mother's International School</p>
+                               
                                 </div>
                               </div>
                           </li>
                 
                         
-                          <li class="cards_item_hidden" id="hidden1">
-                            <div class="card">
-                                <div class="card_image"><img src="../profilenew/images/picc1.png" ></div>
-                                <div class="card_content">
-                                  <h2 class="card_title">Ananda</h2>
-                                  <p class="card_text">Yoga. The Right Way.</p>
-                                  <button class="btn card_btn"><a href="https://anandapp.co/" style="text-decoration: none;"> Read More</a></button>
-                                </div>
-                              </div>
-                          </li>
-
                           <li class="cards_item_hidden" id="hidden2">
                             <div class="card">
-                                <div class="card_image"><img src="../profilenew/images/picc1.png" ></div>
+                                <div class="card_image"><img src="../profilenew/images/awps.png" ></div>
                                 <div class="card_content">
-                                  <h2 class="card_title">Ananda</h2>
-                                  <p class="card_text">Yoga. The Right Way.</p>
-                                  <button class="btn card_btn"><a href="https://anandapp.co/" style="text-decoration: none;"> Read More</a></button>
+                                  <h2 class="card_title">AWPS</h2>
+                                  <p class="card_text">Automatic Plant Watering System </p>
+                                 
                                 </div>
                               </div>
                           </li>
 
                           <li class="cards_item_hidden" id="hidden3">
                             <div class="card">
-                                <div class="card_image"><img src="../profilenew/images/picc1.png" ></div>
+                                <div class="card_image"><img src="../profilenew/images/mindt.png" ></div>
                                 <div class="card_content">
-                                  <h2 class="card_title">Ananda</h2>
-                                  <p class="card_text">Yoga. The Right Way.</p>
-                                  <button class="btn card_btn"><a href="https://anandapp.co/" style="text-decoration: none;"> Read More</a></button>
+                                  <h2 class="card_title">Mind Talk</h2>
+                                  <p class="card_text">An AI based app to help creative professionals think better.</p>
+                               
                                 </div>
                               </div>
                           </li>
+
+                        
 
 
                     </ul>
@@ -241,26 +267,35 @@
                 </div>
             </div>
     </section>
-      
-    
-   
-    
-    
     <section class=" grey block">
         <div class="container">
-          <h3 class="section-heading">Responsive Images</h3>
-          <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
           <div class="row">
-            <div class="one-half column category">
-              <img class="u-max-full-width" src="./images/doc2.jpg">
-            </div>
-            <div class="one-half column category">
-              <img class="u-max-full-width" src="./images/doc2.jpg">
-            </div>
+            <h2>Let's Connect</h2>
+              <form action="https://formspree.io/xjvvpppw"
+                 method="POST">
+                  <div class="row">
+                  <div class="six columns">
+                      <label for="exampleEmailInput">Your email</label>
+                      <input class="u-full-width" type="email" placeholder="E-mail" id="exampleEmailInput" name="email">
+                    </div>
+                    <div class="six columns">
+                      <label for="exampleRecipientInput">Reason for contacting</label>
+                      <select class="u-full-width" id="exampleRecipientInput" name="question">
+                        <option value="Option 1">Questions</option>
+                        <option value="Option 2">Freelance</option>
+                       
+                      </select>
+                    </div>
+                  </div>
+                  <label for="exampleMessage">Message</label>
+                  <textarea class="u-full-width" placeholder="Hi …" id="exampleMessage" name="message"></textarea>
+                
+                  <input class="button-primary" type="submit" value="Submit">
+                </form>
           </div>
         </div>
     </section>
--->
+
     <footer class="u-max-full-width">
           <br>
             Made with ♥ in India.
