@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #8dd2e3;
+    background: #f4f5fe;
 }
 .spinner {
     width: 80px;
@@ -24,7 +24,7 @@
     width: 100%;
     height: 100%;
     border-radius: 75%;
-    background-color: #ffff;
+    background-color: #3e4199;
     opacity: 0.6;
     position: absolute;
     top: 0;
