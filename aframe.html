@@ -9,9 +9,9 @@
 <body>
     <a-scene>
         <a-assets>
-            <a-asset-item id="bird" response-type="arraybuffer" src="birdy.glb"></a-asset-item>
+            <a-asset-item id="bird" response-type="arraybuffer" src="pyr2.glb"></a-asset-item>
           </a-assets>
-          <a-entity gltf-model="#bird" position="0.5 1 -15" scale="0.009 0.009 0.009" animation-mixer="clip:Take 001; loop:2; crossFadeDuration: 1"  animation="property: rotation; to: 10 360 90; loop: true; dur: 5000"></a-entity>
+          <a-entity gltf-model="#bird" position="-0.5 2 -5" scale="0.01 0.01 0.01" animation-mixer="clip:*; loop:2; crossFadeDuration: 1"  animation="property: rotation; to: 10 360 90; loop: true; dur: 5000"></a-entity>
         <!-- <a-box position="-1 0.5 -9" rotation="0 3 10"  animation="property: position; to: 1 7 -35; dur: 000; easing: linear; loop: true"color="#4CC3D9"></a-box>
         <a-sphere position="0 1.25 -8" radius=".25" animation="property: position; to: 3 -8 -30; dur: 000; easing: linear; loop: true" color="#EF2D5E"></a-sphere>
         <a-cylinder position="1 0.75 -9" radius="0.5" height="1.5" animation="property: position; to: -4 0 -20; dur: 000; easing: linear; loop: true" color="#FFC65D"></a-cylinder>
