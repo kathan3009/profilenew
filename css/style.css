@@ -1,3 +1,4 @@
+/* #DC88F5 */
 html {
     font-family: 'Comfortaa', cursive;
     font-weight: 800; 
@@ -68,6 +69,8 @@ video {
   }
 
 .heading {
+    font-weight: bold;
+    font-size: 35px;
     color: black;
 }
 #main {
@@ -76,8 +79,8 @@ video {
         padding-bottom: 2vw;
 }
 .grey {
-    background:#f4f5fe;
-    color:black;
+    background:#202124;
+    color:white;
 }
 footer {
     font-size: 1.8rem;
@@ -127,6 +130,7 @@ footer {
 }
 
 #main p {
+
     color: black;
 }
 @media (min-width: 550px) {
@@ -189,10 +193,15 @@ footer {
   
 #faceimage {
     position: relative;
-    margin: 40px 40px;
+    margin: 110px 20px 80px 180px;
     border: 1px transparent;
     border-radius:55%;
     box-shadow:  3px 10px 30px 08px rgba(0, 0, 0, 0.35);
+   }
+   #devimage{
+    position: relative;
+    margin: 110px 60px 80px 140px;
+    
    }
    #myProgress {
     margin: 0.3em;
@@ -208,7 +217,7 @@ footer {
     position: absolute;
     width: 50%;
     height: 100%;
-    background-color: #3e4199;
+    background-color: #202124;
     border-radius: 12px;
   }
   
