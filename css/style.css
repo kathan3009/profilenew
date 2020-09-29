@@ -100,7 +100,7 @@ footer {
 }
 
 .block {
-    padding: 8vw;
+    padding: 5vw;
 }
 .minipad {
     padding: 2vw 2vw 2vw 0;
@@ -202,6 +202,69 @@ footer {
     position: relative;
     margin: 110px 60px 80px 140px;
     
+   }
+   .container-1{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+   .box-1{
+     flex: 1;
+     
+   }
+   .box-1 p{
+      padding: 50px;
+   }
+   .box-2{
+     flex: 1;
+     margin: 40px;
+   }
+   .cont-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .bol-1{
+     flex: 1;
+   }
+   .bol-1 p{
+     font-size: 25px;
+      padding: 50px;
+   }
+   .bol-2{
+     display: flex;
+     flex: 2;
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+   .top-1{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .top-2{
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .skill-c-1{
+     flex: 1;
+     margin-right: 20px;
+     padding: 10px;
+     background-color: #202124;
+     border: 1px transparent;
+     box-shadow:  3px 10px 30px 08px rgba(0, 0, 0, 0.20);
+     border-radius: 25px;
+     color: white;
+   }
+   .skill-c-1 h1{
+     font-size: 18px;
+   }
+   .icon-a{
+     background-image: url("/images/circuit.svg");
+     background-color: white;
    }
    #myProgress {
     margin: 0.3em;
