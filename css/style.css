@@ -133,47 +133,7 @@ footer {
 
     color: black;
 }
-@media (min-width: 550px) {
-    #main img {
-        display: block;
-        width: 70% !important;
-    }
-    
-   
-}
-@media (max-width: 550px) {
-    .navbar{
-         vertical-align: center;
-        
-    }
-    .navbar ul{
-      padding: 1.5vw 5vw 1vw 27vw;
-    }
-    
-       #main {
-       
-        padding-top: 20vw;
-        padding-bottom: 20vw;
-    }
-    #main img{
-       margin-left:24%;
-       width: 175vw;
-       border-radius:1em ;
-    }
-    .colum2 {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-      }
-   
-   
-    .four {
-        text-align: center;
-    }
-    .three {
-        text-align: center;
-    }
-}
+
 
 .momos {
     display: none;
@@ -193,7 +153,7 @@ footer {
   
 #faceimage {
     position: relative;
-    margin: 110px 20px 80px 180px;
+    margin: 90px 20px 80px 180px;
     border: 1px transparent;
     border-radius:55%;
     box-shadow:  3px 10px 30px 08px rgba(0, 0, 0, 0.35);
@@ -239,32 +199,102 @@ footer {
    }
    .top-1{
     flex: 1;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
    }
    .top-2{
     flex: 1;
-    padding: 60px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
    }
    .skill-c-1{
      flex: 1;
-     margin-right: 20px;
+     margin: 20px;
      padding: 10px;
-     background-color: #202124;
+     background-color: #DC88F5;
      border: 1px transparent;
      box-shadow:  3px 10px 30px 08px rgba(0, 0, 0, 0.20);
      border-radius: 25px;
-     color: white;
+     color:#202124;
+     word-wrap: break-word;
    }
    .skill-c-1 h1{
-     font-size: 18px;
+     font-size: 20px;
    }
-   .icon-a{
-     background-image: url("/images/circuit.svg");
-     background-color: white;
+   .skill-c-1 p{
+     font-size: 16px;
+   }
+   .skill-c-1 img{
+     padding-top: 10px;
+   }
+   .cont-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .work-1{
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .work-2{
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .work-c-1{
+    flex: 2;
+    margin: 20px;
+    background-color: white;
+    border: 1px transparent;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow:  3px 10px 30px 08px rgba(223, 219, 219, 0.3);
+    color:#202124;
+    word-wrap: break-word;
+   }
+   /* .work-c-1:hover{
+     transition: 990ms;
+    box-shadow:  5px 10px 20px 08px rgb(255, 255, 255,1.1);
+     
+   }*/
+   .work-c-1 p{
+     padding: 10px;
+     word-wrap: break-word;
+    font-size: 18px;
+
+   }
+   .work-c-1 h1{
+     padding: 5px;
+     word-wrap: break-word;
+   }
+   .work-c-1 img{
+     padding: -20px;
+     height: auto;
+     max-width: 100%;
+     vertical-align: middle;
+   }
+   .cont-4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .inner{
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    flex-wrap: wrap;
+   }
+   .inner img{
+     width: 40%;
+     object-fit:contain;
+     margin: 30px;
+     padding: 20px;
+     border: 1px solid rgb(0,0,0,0.1);
+
    }
    #myProgress {
     margin: 0.3em;
@@ -322,8 +352,9 @@ footer {
   
   .cards_item {
     display: flex;
-    padding: 2rem;
-    margin-right: 5rem;
+    word-wrap: break-word;
+    flex: 1;
+    margin: 30px;
     
   }
   .cards_item_hidden{
@@ -446,7 +477,55 @@ footer {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
+@media (min-width: 550px) {
+  #main img {
+      display: block;
+      width: 70% !important;
+  }
+    
+}
+@media (max-width: 550px) {
+  .navbar{
+       vertical-align: center;
+      
+  }
+  .navbar ul{
+    padding: 1.5vw 5vw 1vw 27vw;
+  }
+  
+     #main {
+     
+      padding-top: 20vw;
+      padding-bottom: 20vw;
+  }
+  #main img{
+     margin-left:24%;
+     width: 175vw;
+     border-radius:1em ;
+  }
+  .colum2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+ 
+  .four {
+      text-align: center;
+  }
+  .three {
+      text-align: center;
+  }
+  .inner img{
+    width: 80%;
+    align-items: center;
+    object-fit:contain;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid rgb(0,0,0,0.1);
+    
+  }
+  
+}
 
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
