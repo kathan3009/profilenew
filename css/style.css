@@ -169,8 +169,7 @@ footer {
      flex-direction: column;
    }
    .box-1{
-     flex: 1;
-     
+     flex: 1; 
    }
    .box-1 p{
       padding: 50px;
@@ -186,14 +185,15 @@ footer {
    }
    .bol-1{
      flex: 1;
+    
    }
    .bol-1 p{
-     font-size: 25px;
-      padding: 50px;
+      padding: 30px;
+      overflow: hidden;
    }
    .bol-2{
      display: flex;
-     flex: 2;
+     flex: 1;
      flex-wrap: wrap;
      flex-direction: column;
    }
@@ -213,12 +213,16 @@ footer {
      flex: 1;
      margin: 20px;
      padding: 10px;
+   
      background-color: #DC88F5;
      border: 1px transparent;
      box-shadow:  3px 10px 30px 08px rgba(0, 0, 0, 0.20);
      border-radius: 25px;
      color:#202124;
      word-wrap: break-word;
+   }
+   .skill-c-1 img{
+     width: 40px;
    }
    .skill-c-1 h1{
      font-size: 20px;
@@ -515,12 +519,15 @@ footer {
   .three {
       text-align: center;
   }
+  .inner{
+    padding: 10px;
+  }
   .inner img{
     width: 80%;
     align-items: center;
     object-fit:contain;
-    margin: 30px;
-    padding: 10px;
+    margin: 20px;
+    padding: 5px;
     border: 1px solid rgb(0,0,0,0.1);
     
   }
