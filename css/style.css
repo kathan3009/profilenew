@@ -9,6 +9,10 @@ body {
     margin: 0px; 
    
 }
+/* ::selection {
+  color: red;
+  background: yellow;
+} */
 .navbar {
     
     background-color: #ffff;
@@ -188,7 +192,7 @@ footer {
     
    }
    .bol-1 p{
-      padding: 30px;
+      padding: 50px;
       overflow: hidden;
    }
    .bol-2{
@@ -211,15 +215,15 @@ footer {
    }
    .skill-c-1{
      flex: 1;
+     word-wrap: break-word;
      margin: 20px;
      padding: 10px;
-   
      background-color: #DC88F5;
      border: 1px transparent;
      box-shadow:  3px 10px 30px 08px rgba(0, 0, 0, 0.20);
      border-radius: 25px;
      color:#202124;
-     word-wrap: break-word;
+     
    }
    .skill-c-1 img{
      width: 40px;
@@ -530,6 +534,12 @@ footer {
     padding: 5px;
     border: 1px solid rgb(0,0,0,0.1);
     
+
+  }
+
+  .social img{
+    width: 15%;
+
   }
   
 }
